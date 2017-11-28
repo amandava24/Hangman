@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class = "text-align: center;">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="sheet.css"/>
+    <script src ="script.js"></script>
+</head>
+<body>
+<h1>Guess THAT word!!</h1>
+<select id="chooseCategory">
+    <option value="0">Choose a category!</option>
+    <option value="1">Names</option>
+    <option value="2">Articles of clothing</option>
+    <option value="3">Alphabet letters</option>
+</select>
+<button onclick="startGame()">Submit category choice</button>
+<input type="text" id="guessLetter" value="" onclick="this.value=''">
+<button onclick="guessLetter()">Enter</button>
+<div id = "turns"></div>
+<div id="finunder"></div>
+<p id= "box">Guessed Letters</p>
+<div id= "output"> </div>
+
+<div id="woutput"></div>
+
+
+<div id = "winOrL"></div>
+
+</body>
+</html>
+
+
+

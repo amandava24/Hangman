@@ -1,0 +1,41 @@
+div {
+    width: 128px;
+    font-size: 20px;
+    color: red;
+}
+
+#reload{
+    position:relative;
+    left: 17px;
+    bottom: 70px;
+}
+
+#finunder{
+    color: green;
+    text-align: center
+}
+
+#reload {
+    position:relative;
+    left: 170px;
+    bottom: 80px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+html,body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/5f/6f/06/5f6f06eca7e4eb52032cb044daa33a59.jpg");
+    text-align:center;
+}
+
+
+*{
+    margin: 0px auto;
+
+}
+
