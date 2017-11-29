@@ -1,5 +1,5 @@
-var names = ["amanda", "martina", "talia"];
-var clothing = ["sweatshirt", "hoodie", "shirt", "pants"];
+var typesOfPie = ["boysenberry", "pumpkin", "apple", "pecan", "cherry", "blackberry", "strawberry"];
+var clothing = ["sweatshirt", "hoodie", "shirt", "pants", "shoes", "leggings", "socks", "gloves", "jacket"];
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var cword = "";
 var prevGuesses = [];
@@ -15,7 +15,7 @@ function startGame(){
     document.getElementById("turns").innerHTML = "Turns left: " + turns;
     var category = document.getElementById("chooseCategory").value;
     if(category == "1"){
-        var category = names;
+        var category = typesOfPie;
     }
     if(category == "2"){
         var category = clothing;
